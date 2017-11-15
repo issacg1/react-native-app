@@ -2,12 +2,12 @@ import React from 'react';
 import { Text, StyleSheet, View } from 'react-native';
 
 const Header = (props) => {
-    return (
+	return (
 			<View style={styles.view}>
-				 <Text style={styles.blue}>{props.header}</Text>
+					<Text style={styles.blue}>{props.header}</Text>
 			</View>
 		);
-};
+	};
 
 const styles = StyleSheet.create({
     blue: {
@@ -17,9 +17,8 @@ const styles = StyleSheet.create({
 		},
 		view: {
 			marginTop: 20,
-			height: 20,
+			height: 50,
 			backgroundColor: '#f8f8f8',
-			zIndex: 10,
 			shadowColor: '#000',
 			shadowOffset: { width: 0, height: 2 },
 			shadowOpacity: 0.2,
